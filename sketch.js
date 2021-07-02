@@ -18,6 +18,7 @@ function setup() {
 
 function draw() {
 
+
   background("black");
 
   if(wall.x-car.x < (car.width+wall.width)/2) {
@@ -33,9 +34,10 @@ function draw() {
     }
     if (deforamtion<100) {
       car.shapeColor = "green"
+     
     }
+   
   }
+ drawSprites();
 }
 
-drawSprites();
-{}
